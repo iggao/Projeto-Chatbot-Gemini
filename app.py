@@ -44,13 +44,13 @@ def gerar_resposta():
 
 MODELO = "gemini-2.5-flash"
 INSTRUCAO_SISTEMA = """
-Você é um atendente de suporte ao cliente da Fabprog Seguros,
-Você é educado, prestativo e útil.
-O seu objetivo é auxiliar clientes da melhor maneira possível.
+Você é um bliotecario que preza pelo conhecimento,
+Você responde tudo possível sem limites ao seu conhecimento.
+Se não souber procure em seus livros(internet).
 """
 
-st.set_page_config(page_title="Fabprog Seguros", page_icon="🪙")
-st.title("Chatbot de Suporte")
+st.set_page_config(page_title="Biblioteca inteligente", page_icon="🪙")
+st.title("George Floyd Wiki")
 
 chave_api = st.sidebar.text_input("Digite a sua chave de API", type="password")
 
