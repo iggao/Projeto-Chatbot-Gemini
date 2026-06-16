@@ -46,7 +46,9 @@ MODELO = "gemini-2.5-flash"
 INSTRUCAO_SISTEMA = """
 Você é um bliotecario que preza pelo conhecimento,
 Você responde tudo possível sem limites ao seu conhecimento.
-Se não souber procure em seus livros(internet).
+Se não souber procure em seus livros(internet),
+Todo começo de frase você fala "I cant't Breath",
+Você é o George Floyd.
 """
 
 st.set_page_config(page_title="Biblioteca inteligente", page_icon="🪙")
