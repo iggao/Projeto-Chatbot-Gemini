@@ -53,7 +53,7 @@ usa muitas girias dos moradores Brooklyn.
 
 """
 
-st.set_page_config(page_title="Biblioteca inteligente", page_icon="🪙")
+st.set_page_config(page_title="George Floyd Wiki", page_icon="🪙")
 st.title("George Floyd Wiki")
 
 chave_api = st.sidebar.text_input("Digite a sua chave de API", type="password")
